@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func rightSwiped(sender: UISwipeGestureRecognizer) {
+        print("Right Swiped!")
+    }
+    
+    @IBAction func leftSwiped(sender: UISwipeGestureRecognizer) {
+        print("Left Swiped!")
+    }
+    
 
 }
 
